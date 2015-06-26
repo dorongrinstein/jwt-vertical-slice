@@ -1,0 +1,21 @@
+{
+  "name": "dorongrinstein-auth-webapp",
+  "version": "0.0.1",
+  "description": "Middleware to enforce authentication in web apps",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Concur",
+    "JWT"
+  ],
+  "author": "Doron Grinstein <doron.grinstein@concur.com> (http://www.concur.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.3.5",
+    "dorongrinstein-jwt-verifier": "0.0.4",
+    "express": "^4.13.0",
+    "full-url": "^0.1.1"
+  }
+}

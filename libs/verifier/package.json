@@ -1,0 +1,19 @@
+{
+  "name": "dorongrinstein-jwt-verifier",
+  "version": "0.0.4",
+  "description": "A JWT verifier, specific for a Concur architecture demo",
+  "main": "jwt-verifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "concur"
+  ],
+  "author": "Doron Grinstein <doron.grinstein@concur.com> (http://www.concur.com)",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^5.0.2",
+    "request": "^2.58.0"
+  }
+}

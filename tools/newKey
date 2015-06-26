@@ -1,0 +1,7 @@
+echo 'generating new RSA private key'
+openssl genrsa -out ../privateKey/private_key.pem 4096
+
+
+echo 'generating public key and storing in ../publicKeys/publicKeys'
+//openssl rsa -pubout -in private_key.pem -out ../publicKeys/$RANDOM.pem
+openssl rsa -pubout -in private_key.pem -out ../publicKeys/publickey.pem
