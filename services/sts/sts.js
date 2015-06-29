@@ -10,7 +10,9 @@ var app = express();
 var ui = require('./ui');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
-var jwtLib = new (require('dorongrinstein-jwt-generator'))('../../privateKey/private_key.pem');
+var proj_root = process.env.PROJECT_ROOT || '/Users/dorong/vertical';
+var priv_key_file = proj_root + '/privateKey/private_key.pem';
+var jwtLib = new (require('dorongrinstein-jwt-generator'))(priv_key_file);
 var cookieName = process.env.JWT_COOKIE_NAME || 'concur-user';
 
 app.use(cookieParser());
