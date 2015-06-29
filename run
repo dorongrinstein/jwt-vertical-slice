@@ -1,6 +1,5 @@
 export PROJECT_ROOT=~/vertical
 
-export PROJECT_ROOT=~/vertical
 echo Starting public key server
 node ./services/publicKeyService/publicKeyService.js &
 echo kill $! > stop
