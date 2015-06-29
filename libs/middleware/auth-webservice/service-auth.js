@@ -12,7 +12,6 @@ module.exports = function auth(req, res, next) {
             if (parts.length === 2) {
                 verifier.verify(parts[1], function (jwt) {
                     if ((jwt != null) && (jwt != 'error')) {
-                        console.log(jwt);
                         req.jwt = jwt;
                         next();
                     }
