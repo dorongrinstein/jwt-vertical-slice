@@ -1,15 +1,15 @@
 // jwt verifier
 // copyright (c) 2015 Concur Technologies
-// All rights reserverd
+// All rights reserved
 // Doron Grinstein (doron.grinstein@concur.com)
 
-// this library is not for productio use.
-// it is for the urpose of demonstrating a capability only, in the context
+// this library is not for production use.
+// it is for the purpose of demonstrating a capability only, in the context
 // of an architecture document.
 
-//todo: handle key roation. current implementation assumes a fixed
+//todo: handle key rotation. current implementation assumes a fixed
 //      public key. need to decode the JWT, look at kid and determine 
-//      the public key url path to call to obatain the specified key.
+//      the public key url path to call to obtain the specified key.
 
 var request = require('request');
 var jwt = require('jsonwebtoken');

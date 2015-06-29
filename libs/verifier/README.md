@@ -20,7 +20,7 @@ jwtVerifier.verify(token, function(decoded) {
 
 ## Author
 
-[~dorongrinstein](concyr.com)
+[~dorongrinstein](concur.com)
 
 ## License
 

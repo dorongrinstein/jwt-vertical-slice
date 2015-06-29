@@ -1,0 +1,20 @@
+{
+  "name": "auth-webservice",
+  "version": "1.0.0",
+  "description": "Authentication module for web services",
+  "main": "testService.js",
+  "scripts": {
+    "test": "node testService.js"
+  },
+  "keywords": [
+    "jwt",
+    "webservice",
+    "rest"
+  ],
+  "author": "Doron Grinstein <doron.grinstein@concur.com> (http://www.concur.com)",
+  "license": "MIT",
+  "dependencies": {
+    "dorongrinstein-jwt-verifier": "0.0.4",
+    "express": "^4.13.0"
+  }
+}
