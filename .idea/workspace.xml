@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a0f128-025e-45f1-8e03-47de7d03a6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/publicKeyService/publicKeyService.js" afterPath="$PROJECT_DIR$/services/publicKeyService/publicKeyService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/sts/sts.js" afterPath="$PROJECT_DIR$/services/sts/sts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a4a0f128-025e-45f1-8e03-47de7d03a6b1" name="Default" comment="" />
     <ignored path="vertical.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +57,8 @@
       <file leaf-file-name="run" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="285">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -82,8 +77,8 @@
       <file leaf-file-name="sts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/sts/sts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="840">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="840">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -561,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="285">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -577,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/sts/sts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="840">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="840">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

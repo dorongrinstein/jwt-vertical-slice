@@ -1,7 +1,4 @@
-if [ "$PROJECT_ROOT" == "" ]; then
-  echo PLEASE export PROJECT_ROOT=xxxxxxxxxxx;
-  exit;
-fi
+export PROJECT_ROOT=~/vertical
 
 export PROJECT_ROOT=~/vertical
 echo Starting public key server
