@@ -1,4 +1,4 @@
-export PROJECT_ROOT=~/vertical
+export PROJECT_ROOT=$(pwd)
 
 echo Starting public key server
 node ./services/publicKeyService/publicKeyService.js &
@@ -6,4 +6,8 @@ echo kill $! > stop
 
 echo Starting STS
 node ./services/sts/sts.js &
+echo kill $! >> stop
+
+echo Web services
+node ./libs/middleware/auth-webservice/testService.js &
 echo kill $! >> stop
