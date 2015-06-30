@@ -1,3 +1,4 @@
+# this is a comment
 export PROJECT_ROOT=$(pwd)
 
 echo Starting public key server
