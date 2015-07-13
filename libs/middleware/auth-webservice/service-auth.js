@@ -14,10 +14,14 @@ module.exports = function auth(req, res, next) {
                     if ((jwt != null) && (jwt != 'error')) {
                         req.jwt = jwt;
                         next();
-                    }
+                    } else
+                     res.status(401).send("Unauthorized");
                 });
-            }
-        }
-    }
+            } else
+              res.status(401).send("Unauthorized");
+        } else 
+          res.status(401).send("Unauthorized");
+    } 
+    else
     res.status(401).send("Unauthorized");
 }
